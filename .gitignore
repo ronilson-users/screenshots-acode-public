@@ -1,0 +1,30 @@
+# Dependências
+node_modules/
+
+# Build (gerado — não versione)
+dist/
+build/
+out/
+.parcel-cache/
+
+# Testes / cache
+coverage/
+.eslintcache
+.cache/
+
+# Segredos — nunca versione
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
